@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         myButton.setOnClickListener {
             if (myEditText.text.toString() ==""){
-                myString = "Que paso master"
+                myString = "Empty"
                 myTextView.text = myString
             }
             else{
